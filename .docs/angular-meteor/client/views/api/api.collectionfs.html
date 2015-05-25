@@ -20,13 +20,13 @@ collection so that angular-meteor can use it to save and remove files.
 
 ## Usage
 
-    $meteorCollection(function() {
+    $meteor.collection(function() {
         return Images.find();
     }, false, Images);
 
     // Or
 
-    $meteorCollection(Images, false);
+    $meteor.collection(Images, false);
 
 ----
 
